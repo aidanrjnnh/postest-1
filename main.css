@@ -1,0 +1,71 @@
+/* Import font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(107, 105, 105);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  padding: 10px 0 10px 40px;
+}
+
+nav {
+  background-color: rgb(138, 138, 138);
+  padding: 10px 0 10px 40px;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding-left: 5px;
+  justify-content: space-between;
+}
+
+footer {
+  background: rgb(107, 105, 105);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer .bottom-details {
+  width: 100%;
+  background: rgb(107, 105, 105);
+  margin: 0;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(138, 138, 138);
+  color: white;
+  font-family: sans-serif;
+  padding: 0 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+footer .bottom-details .bottom_text {
+  margin: 0;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(138, 138, 138);
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .bottom-details .bottom_text img {
+  margin-right: 10px;
+}

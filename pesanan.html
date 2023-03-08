@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="pesanan.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cylaa's Cafe</h1>
+    </header>
+    <nav>
+        <a href="Cafe.html">Beranda</a>
+        <a href="Makanan.html">Makanan</a>
+        <a href="Minuman.html">Minuman</a>
+        <a href="Pesanan.html">Pesanan</a>
+    </nav>
+    <main>
+        <div class="a">
+            <h1>Pesanan Dan Pembayaran</h1>
+        </div>
+        <div class="b">
+            <form>
+                <div class="form-group">
+                    <label for="nama">Nama</label>
+                    <input type="text" name="nama" id="nama" />
+                </div>
+                <div class="form-group">
+                    <label for="nomor_hp">Nomor HP</label>
+                    <input type="text" name="nomor_hp" id="nomor_hp" />
+                </div>
+                <div class="form-group">
+                    <label for="makanan">Makanan</label>
+                    <select name="makanan" id="makanan">
+                        <option value="A">Tidak Ada</option>
+                        <option value="B">Nasgor</option>
+                        <option value="C">Ayam Betutu</option>
+                        <option value="D">Pentol</option>
+                        <option value="E">Sandwich</option>
+                        <option value="F">Sushi</option>
+                        <option value="G">cireng</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="jumlah_makanan">Jumlah makanan</label>
+                    <input type="number" name="jumlah_makanan" id="jumlah_makanan" />
+                </div>
+                <div class="form-group">
+                    <label for="keterangan">Nomor HP</label>
+                    <input type="number" name="keterangan" id="keterangan" />
+                </div>
+                <div class="form-group">
+                    <label for="minuman">Minuman</label>
+                    <select name="minuman" id="minuman">
+                        <option value="A">Tidak Ada</option>
+                        <option value="B">Nasgor</option>
+                        <option value="C">Ayam Betutu</option>
+                        <option value="D">Pentol</option>
+                        <option value="E">Sandwich</option>
+                        <option value="F">Sushi</option>
+                        <option value="G">cireng</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="jumlah_minuman">Jumlah Minuman</label>
+                    <input type="number" name="jumlah_minuman" id="jumlah_minuman" />
+                </div>
+                <div class="form-group">
+                    <label for="pembayaran">Pembayaran</label>
+                    <div class="form-radio">
+                        <input type="radio" name="pembayaran" id="cash" value="cash">
+                        <label for="cash">Cash</label>
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" name="pembayaran" id="gopay" value="gopay">
+                        <label for="gopay">Gopay</label>
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" name="pembayaran" id="qris" value="qris">
+                        <label for="qris">QRIS</label>
+                    </div>
+                    <div class="form-radio">
+                        <input type="radio" name="pembayaran" id="card_bank" value="card_bank">
+                        <label for="card_bank">Card Bank</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="tambahan">Tambahan</label>
+                    <textarea rows="4" Cols="50" placeholder="Silahkan Masukkan Tambahan Disini"></textarea>
+                </div>
+                <button type="submit" class="button">Pesan</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <img src="wa.png" alt="wa" class="wa" width="50" height="25">
+                Contact us :081349646845
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
